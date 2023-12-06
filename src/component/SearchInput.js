@@ -1,8 +1,14 @@
-export default function SearchInput(){
+export default function SearchInput({textChange}){
+
+    const handlerChange = event => {
+        textChange(event)
+    }
+
+
     return(
         <div>
             <div>
-                <input/>
+                <input onChange={handlerChange}/>
             </div>
         </div>
     )

@@ -1,0 +1,37 @@
+.component-result-row {
+    padding: 10px;
+    margin: 5px;
+    border-bottom: 1px solid #3498db; /* Borde inferior azul */
+    height: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Transición suave */
+}
+
+.component-result-row:hover {
+    background: #2ecc71; /* Cambio de color de fondo al pasar el ratón (verde) */
+}
+
+.component-result-row img {
+    width: 32px;
+    height: 32px;
+    padding-right: 10px;
+}
+
+.component-result-row .title {
+    position: relative;
+    top: -8px;
+    color: #ffffff; /* Texto en color blanco para mejor visibilidad */
+}
+
+.component-result-row .info {
+    float: right;
+    position: relative;
+    top: 8px;
+    right: 10px;
+    color: #3498db; /* Color de texto azul */
+    display: none;
+}
+
+.component-result-row:hover .info {
+    display: inline-block;
+}

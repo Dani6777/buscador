@@ -1,0 +1,14 @@
+.component-header {
+    text-align: center;
+    color: #3498db; /* Color azul ajustado */
+    padding: 20px 0;
+    font-size: 2em;
+    background: #2ecc71; /* Fondo verde similar al de la paleta anterior */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Sutil sombra para un aspecto minimalista */
+    transition: background-color 0.3s, color 0.3s; /* Agregadas transiciones suaves */
+}
+
+.component-header:hover {
+    background: #9a6b6b; /* Cambio de color de fondo al pasar el ratón (rojo de la paleta anterior) */
+    color: #ffffff; /* Cambio de color de texto al pasar el ratón para mejor visibilidad */
+}

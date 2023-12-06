@@ -6,8 +6,8 @@ export default function EmojiResult({emojiData}){
 
     useEffect(()=>{
         const clipboard = new Clipboard(".copy-to-clipboard")
+        console.log(clipboard)
 
-        return clipboard.destroy();
     },[])
     return(
         <div>

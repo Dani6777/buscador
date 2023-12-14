@@ -1,14 +1,14 @@
 .component-result-row {
     padding: 10px;
     margin: 5px;
-    border-bottom: 1px solid #3498db; /* Borde inferior azul */
+    border-bottom: 1px solid #98FB98; /* Borde inferior azul */
     height: 25px;
     cursor: pointer;
     transition: background-color 0.3s; /* Transición suave */
 }
 
 .component-result-row:hover {
-    background: #2ecc71; /* Cambio de color de fondo al pasar el ratón (verde) */
+    background: #FFA500; /* Cambio de color de fondo al pasar el ratón (verde) */
 }
 
 .component-result-row img {
@@ -20,7 +20,7 @@
 .component-result-row .title {
     position: relative;
     top: -8px;
-    color: #ffffff; /* Texto en color blanco para mejor visibilidad */
+    color:#FFFFFF; /* Texto en color blanco para mejor visibilidad */
 }
 
 .component-result-row .info {

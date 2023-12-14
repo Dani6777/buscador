@@ -4,23 +4,23 @@
 }
 
 .component-search-input input {
-    border-radius: 4px;
+    border-radius: 5px;
     box-sizing: border-box;
-    font-size: 14px; /* Tamaño de fuente reducido */
-    padding: 6px 4px; /* Reducción del padding */
+    font-size: 20px; /* Tamaño de fuente reducido */
+    padding: 20px 20px; /* Reducción del padding */
     width: 70%; /* Ancho reducido */
     max-width: 300px; /* Ancho máximo para evitar que se vuelva demasiado pequeño */
     height: 20px; /* Altura reducida */
     border: 1px solid #3498db; /* Borde azul según la paleta anterior */
     outline: none;
-    background: #2ecc71; /* Fondo verde según la paleta anterior */
-    color: #ffffff; /* Color de texto blanco para mejor visibilidad */
+    background: #FFD700; /* Fondo verde según la paleta anterior */
+    color: #3498db; /* Color de texto blanco para mejor visibilidad */
     transition: background-color 0.3s, border-color 0.3s; /* Agregar transiciones suaves */
     margin: 0 auto; /* Centrar el input horizontalmente */
 }
 
 .component-search-input input:hover,
 .component-search-input input:focus {
-    background: #9a6b6b; /* Cambio de color de fondo al pasar el ratón o enfocar (rojo de la paleta anterior) */
+    background: #FFFFFF; /* Cambio de color de fondo al pasar el ratón o enfocar (rojo de la paleta anterior) */
     border-color: #3498db; /* Cambio de color del borde al pasar el ratón o enfocar (azul de la paleta anterior) */
 }
